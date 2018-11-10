@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Class2ExercisesListsStrings
 {
@@ -6,18 +8,42 @@ namespace Class2ExercisesListsStrings
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-        }
-    }
+            List<string> myWordList = new List<string>();
+            string newWord;
 
-    private static int Print5LetterWords()
-    {
-        foreach (string word in words)
-        {
-            if (word.Count == 5)
+            Console.WriteLine("Type a word you'd like to add to your word list or click ENTER when finished.");
+
+            do
             {
-                Console.Write(word);
+                newWord = Console.ReadLine();
+                if (newWord != "")
+                {
+                    myWordList.Add(newWord);
+                }
             }
+            while (newWord != "");
+
+            Console.WriteLine(String.Join(", ", myWordList.ToArray()));
+            Console.ReadLine();
+
+            List<string> my5LetterWordList = Print5LetterWords(myWordList);
+            Console.WriteLine(String.Join(", ", my5LetterWordList.ToArray()));
+            Console.ReadLine();
+        }
+
+        private static List<string> Print5LetterWords(List<string> wordList)
+        {
+            List<string> changingList = new List<string>();
+
+            foreach (string word in wordList)
+            {
+                if (word.Length == 5)
+                {
+                    changingList.Add(word);
+                }
+            }
+
+            return changingList;
         }
     }
 }

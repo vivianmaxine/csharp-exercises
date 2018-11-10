@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Class2ExercisesLists
 {
@@ -6,22 +7,25 @@ namespace Class2ExercisesLists
     {
         static void Main(string[] args)
         {
-            List<int> numList = new List<int>(1, 2, 3, 4, 5);
-        }
-    }
+            List<int> myNumList = new List<int>() { 1, 2, 3, 4, 5, 6, 7, 8 };
 
-    private static int AddEvenNums()
-    {
-        int evenSum = 0;
-        foreach (int number in numList)
+            int mySumOfEvens = AddEvenNums(myNumList);
+            Console.WriteLine("The sum of my even numbers is " + mySumOfEvens);
+            Console.ReadLine();
+        }
+
+        private static int AddEvenNums(List<int> numList)
         {
-            if (number % 2)
+            int evenSum = 0;
+            foreach (int num in numList)
             {
-                evenSum += number;
+                if (num % 2 == 0)
+                {
+                    evenSum += num;
+                }
             }
-        }
 
-        return evenSum;
-{        
+            return evenSum;
+        }
     }
 }
