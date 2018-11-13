@@ -40,8 +40,9 @@ namespace ClassExercisesDictionaries
             StringBuilder newLoopRoster = new StringBuilder();
             foreach (KeyValuePair<string, int> student in students)
             {
-                newLoopRoster.Append(" | ");
                 newLoopRoster.Append(student);
+                newLoopRoster.Append(" | ");
+                // newLoopRoster.Append(student);
             }
 
             Console.WriteLine(newLoopRoster);

@@ -32,19 +32,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DogAges", "DogAges\DogAges.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DogAgesArray", "DogAgesArray\DogAgesArray.csproj", "{6CD81540-1ECA-44A9-9158-18F9CE5919CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogAgesDictionary", "DogAgesDictionary\DogAgesDictionary.csproj", "{18EBCC1C-6406-496D-B92B-215CF2B46E37}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DogAgesDictionary", "DogAgesDictionary\DogAgesDictionary.csproj", "{18EBCC1C-6406-496D-B92B-215CF2B46E37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithStrings", "WorkingWithStrings\WorkingWithStrings.csproj", "{DD71D787-EFAE-43B9-A470-8421AE661617}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkingWithStrings", "WorkingWithStrings\WorkingWithStrings.csproj", "{DD71D787-EFAE-43B9-A470-8421AE661617}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class2ExercisesLists", "Class2ExercisesLists\Class2ExercisesLists.csproj", "{F7CF3233-A1FF-4F7E-BD12-BF609AAF190F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class2ExercisesLists", "Class2ExercisesLists\Class2ExercisesLists.csproj", "{F7CF3233-A1FF-4F7E-BD12-BF609AAF190F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class2ExercisesListsStrings", "Class2ExercisesListsStrings\Class2ExercisesListsStrings.csproj", "{485190DC-437C-47D4-9FC4-87944334A453}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class2ExercisesListsStrings", "Class2ExercisesListsStrings\Class2ExercisesListsStrings.csproj", "{485190DC-437C-47D4-9FC4-87944334A453}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class2ExercisesArrays", "Class2ExercisesArrays\Class2ExercisesArrays.csproj", "{1BBE4084-8EBF-4E6B-AC69-3E0E2AD20168}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class2ExercisesArrays", "Class2ExercisesArrays\Class2ExercisesArrays.csproj", "{1BBE4084-8EBF-4E6B-AC69-3E0E2AD20168}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class2ExercisesDictionaries", "ClassExercisesDictionaries\Class2ExercisesDictionaries.csproj", "{7B797364-0966-48ED-B8BE-4C469D782B8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class2ExercisesDictionaries", "ClassExercisesDictionaries\Class2ExercisesDictionaries.csproj", "{7B797364-0966-48ED-B8BE-4C469D782B8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class2ExercisesStrings", "Class2ExercisesStrings\Class2ExercisesStrings.csproj", "{F2A439F3-268A-4AAF-8CCE-4BA1623E255F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class2ExercisesStrings", "Class2ExercisesStrings\Class2ExercisesStrings.csproj", "{F2A439F3-268A-4AAF-8CCE-4BA1623E255F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharacterCounter", "CharacterCounter\CharacterCounter.csproj", "{3799FE0C-1333-4CC6-932F-DB9DEFE17791}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -140,6 +142,10 @@ Global
 		{F2A439F3-268A-4AAF-8CCE-4BA1623E255F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2A439F3-268A-4AAF-8CCE-4BA1623E255F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2A439F3-268A-4AAF-8CCE-4BA1623E255F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3799FE0C-1333-4CC6-932F-DB9DEFE17791}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3799FE0C-1333-4CC6-932F-DB9DEFE17791}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3799FE0C-1333-4CC6-932F-DB9DEFE17791}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3799FE0C-1333-4CC6-932F-DB9DEFE17791}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
