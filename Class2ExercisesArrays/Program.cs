@@ -14,8 +14,8 @@ namespace Class2ExercisesArrays
             foreach (int number in myNumberArray)
             {
                 Console.WriteLine(number);
-                Console.ReadLine();
             }
+            Console.ReadLine();
         }
     }
 }
