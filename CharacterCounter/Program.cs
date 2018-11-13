@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text.RegularExpressions;
 
 namespace CharacterCounter
 {
@@ -8,8 +9,13 @@ namespace CharacterCounter
         static void Main(string[] args)
         {
             Dictionary<char, int> charCount = new Dictionary<char, int>();
-            
-            string longString = @"Lorem ipsum dolor " +
+
+            // Receive string input from user
+
+            Console.WriteLine("Please enter a string.");
+            string longString = Console.ReadLine();
+
+            /* string longString = @"Lorem ipsum dolor " +
                 "sit amet, consectetur adipiscing elit. " +
                 "Nunc accumsan sem ut ligula scelerisque " +
                 "sollicitudin. Ut at sagittis augue. Praesent " +
@@ -17,7 +23,11 @@ namespace CharacterCounter
                 "Donec sit amet suscipit metus, non lobortis " +
                 "massa. Vestibulum augue ex, dapibus ac " +
                 "suscipit vel, volutpat eget massa. Donec nec " +
-                "velit non ligula efficitur luctus.";
+                "velit non ligula efficitur luctus."; */
+
+            // Remove all non-alpha characters
+            Regex rgx = new Regex("[^a-zA-Z-]");
+            longString = rgx.Replace(longString, "");
 
             foreach (char character in longString)
             {
