@@ -46,7 +46,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class2ExercisesDictionaries
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class2ExercisesStrings", "Class2ExercisesStrings\Class2ExercisesStrings.csproj", "{F2A439F3-268A-4AAF-8CCE-4BA1623E255F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharacterCounter", "CharacterCounter\CharacterCounter.csproj", "{3799FE0C-1333-4CC6-932F-DB9DEFE17791}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CharacterCounter", "CharacterCounter\CharacterCounter.csproj", "{3799FE0C-1333-4CC6-932F-DB9DEFE17791}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restaurant", "Restaurant\Restaurant.csproj", "{76734822-F8B6-45BF-9C90-4BDBC6356371}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassesObjectsIntro", "ClassesObjectsIntro\ClassesObjectsIntro.csproj", "{4611DCEE-F7CB-4641-BD04-4A900D63DAD0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlankPractice", "BlankPractice\BlankPractice.csproj", "{7F8B9007-525D-429B-BA93-D9CEE8D5B1B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemperatureClassesObjects", "TemperatureClassesObjects\TemperatureClassesObjects.csproj", "{78B46177-FD0C-4943-8C91-5CF0B02451F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -146,6 +154,22 @@ Global
 		{3799FE0C-1333-4CC6-932F-DB9DEFE17791}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3799FE0C-1333-4CC6-932F-DB9DEFE17791}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3799FE0C-1333-4CC6-932F-DB9DEFE17791}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76734822-F8B6-45BF-9C90-4BDBC6356371}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76734822-F8B6-45BF-9C90-4BDBC6356371}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76734822-F8B6-45BF-9C90-4BDBC6356371}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76734822-F8B6-45BF-9C90-4BDBC6356371}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4611DCEE-F7CB-4641-BD04-4A900D63DAD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4611DCEE-F7CB-4641-BD04-4A900D63DAD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4611DCEE-F7CB-4641-BD04-4A900D63DAD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4611DCEE-F7CB-4641-BD04-4A900D63DAD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F8B9007-525D-429B-BA93-D9CEE8D5B1B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F8B9007-525D-429B-BA93-D9CEE8D5B1B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F8B9007-525D-429B-BA93-D9CEE8D5B1B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F8B9007-525D-429B-BA93-D9CEE8D5B1B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78B46177-FD0C-4943-8C91-5CF0B02451F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78B46177-FD0C-4943-8C91-5CF0B02451F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78B46177-FD0C-4943-8C91-5CF0B02451F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78B46177-FD0C-4943-8C91-5CF0B02451F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
